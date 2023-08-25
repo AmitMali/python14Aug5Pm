@@ -30,3 +30,13 @@ print("     hello     there      ".rstrip())
 # print("is valid file".center(20,"="))
 # print(fileName.split('.')[-1] in ext)
 
+# def isPalindrom(word):
+#     if word == word[::-1]:
+#         return True
+#     else:
+#         return False
+
+def isPalindrom2(word): return True if word==word[::-1] else False
+print(isPalindrom2("racecar"))
+
+
